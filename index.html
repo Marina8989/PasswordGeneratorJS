@@ -12,7 +12,7 @@
         <div class="container">
             <h1 class="title">Password Generator</h1>
             <p class="passwordDisplay">password</p>
-          <form class="labelInput">
+          <form class="labelInput" id="passwordGeneratorForm">
             <label for="numberInput">Number of Characters</label>
            <div class="character-amount-container">
              <input type="range" min="1" max="50" value="10" id="rangeInput">
@@ -26,6 +26,7 @@
 
             <label for="symbols">Include Symbols</label>
             <input type="checkbox" id="symbols">
+
             <button id="btn">Generate Password</button>
          </form>
         </div>
